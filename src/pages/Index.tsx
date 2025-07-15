@@ -1,3 +1,4 @@
+import { FuturisticHeader } from "@/components/FuturisticHeader"
 import { FuturisticHero } from "@/components/FuturisticHero"
 import { ServersSection } from "@/components/ServersSection"
 import { PricingCard } from "@/components/PricingCard"
@@ -183,14 +184,19 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      {/* Header */}
+      <FuturisticHeader />
+      
       {/* Hero Section */}
       <FuturisticHero />
       
       {/* Servers Section */}
-      <ServersSection />
+      <div id="servidores">
+        <ServersSection />
+      </div>
       
       {/* Pricing Plans */}
-      <section className="py-16 bg-gradient-to-br from-secondary/10 to-background">
+      <section id="planos" className="py-16 bg-gradient-to-br from-secondary/10 to-background">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
@@ -210,10 +216,12 @@ const Index = () => {
       </section>
       
       {/* Apps Section */}
-      <AppsSection />
+      <div id="apps">
+        <AppsSection />
+      </div>
       
       {/* Franqueado Section */}
-      <section className="py-16 bg-gradient-to-br from-background to-primary/5">
+      <section id="franqueado" className="py-16 bg-gradient-to-br from-background to-primary/5">
         <div className="container mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">

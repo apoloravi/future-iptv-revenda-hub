@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 
 export const FuturisticHero = () => {
   return (
-    <section className="relative min-h-screen bg-gradient-hero overflow-hidden">
+    <section className="relative min-h-screen bg-gradient-hero overflow-hidden pt-16">
       {/* Animated background grid */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_35%,hsl(var(--primary))_35%,hsl(var(--primary))_45%,transparent_45%,transparent_55%,hsl(var(--primary))_55%,hsl(var(--primary))_65%,transparent_65%)] bg-[length:20px_20px] animate-cyber-grid"></div>
