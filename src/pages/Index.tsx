@@ -104,22 +104,6 @@ const Index = () => {
       credits: "15000 Créditos",
       unitPrice: "R$ 0,50 cada",
       buyUrl: "https://revenda.prov.top/#/rs/xl1jAR4WMj/rlKWO3Wzo7"
-    },
-    {
-      title: "Elite",
-      icon: "🥇",
-      price: "R$ 9.000,00",
-      credits: "20000 Créditos",
-      unitPrice: "R$ 0,45 cada",
-      buyUrl: "https://revenda.prov.top/#/rs/xl1jAR4WMj/rlKWO3Wzo7"
-    },
-    {
-      title: "Infinity",
-      icon: "👑",
-      price: "R$ 20.000,00",
-      credits: "50000 Créditos",
-      unitPrice: "R$ 0,40 cada",
-      buyUrl: "https://revenda.prov.top/#/rs/xl1jAR4WMj/rlKWO3Wzo7"
     }
   ]
 
