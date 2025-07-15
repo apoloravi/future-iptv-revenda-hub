@@ -3,9 +3,8 @@ import { Zap } from "lucide-react"
 
 export const ServersSection = () => {
   const servers = [
-    "GoodPlay",
-    "AUD SERVER", 
-    "NewP2"
+    "GoodX",
+    "IMPACTO"
   ]
 
   return (
@@ -16,7 +15,7 @@ export const ServersSection = () => {
             💼 Revenda IPTV com Liberdade Total
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Revenda IPTV com total liberdade e controle! Você terá acesso a <span className="text-accent font-semibold">3 servidores</span> para distribuir os clientes como quiser.
+            Revenda IPTV com total liberdade e controle! Você terá acesso a <span className="text-accent font-semibold">2 servidores</span> para distribuir os clientes como quiser.
             A qualquer momento, poderá <span className="text-accent font-semibold">migrar clientes entre servidores</span>, apenas alterando a URL, sem complicações!
           </p>
           <p className="text-lg font-semibold text-emerald-400 mt-4">
